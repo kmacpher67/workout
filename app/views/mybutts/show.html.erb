@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @mybutt.name %>
+</p>
+
+<p>
+  <strong>Cturl:</strong>
+
+  
+  <iframe width="560" height="315" src="<%= @mybutt.cturl %>" frameborder="0" allowfullscreen></iframe> 
+			
+			  <iframe width="560" height="315" src="http://www.youtube.com/embed/sJZsgDXEbQc" frameborder="0" allowfullscreen></iframe> 
+</p>
+
+<a href="<%= @mybutt.cturl %>"> mybutt link to youtube <%= @mybutt.cturl %></a> 
+
+<BR>
+
+<%= link_to 'Edit', edit_mybutt_path(@mybutt) %> |
+<%= link_to 'Back', mybutts_path %>

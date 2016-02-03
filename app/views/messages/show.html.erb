@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Shortmessage:</strong>
+  <%= @message.shortmessage %>
+</p>
+
+<p>
+  <strong>Longmessage:</strong>
+  <%= @message.longmessage %>
+</p>
+
+<p>
+  <strong>Starttime:</strong>
+  <%= @message.starttime %>
+</p>
+
+<p>
+  <strong>Endtime:</strong>
+  <%= @message.endtime %>
+</p>
+
+<%= link_to 'Edit', edit_message_path(@message) %> |
+<%= link_to 'Back', messages_path %>

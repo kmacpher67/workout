@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shortmessage: MyString
+  longmessage: MyText
+  starttime: 2016-01-27 19:08:37
+  endtime: 2016-01-27 19:08:37
+
+two:
+  shortmessage: MyString
+  longmessage: MyText
+  starttime: 2016-01-27 19:08:37
+  endtime: 2016-01-27 19:08:37
